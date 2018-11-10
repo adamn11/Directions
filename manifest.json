@@ -1,0 +1,21 @@
+{
+    "name": "Directions",
+    "description": "Automatically sends address data to Google Maps",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "background": {
+        "scripts": ["main.js"],
+        "persistent": false
+    },
+
+    "browser_action": {
+        "default_title": "Automatically find directions with Maps",
+        "default_icon": "hello_extensions.png"
+    },
+
+    "permissions": [
+        "http://*/*", "https://*/*",
+        "contextMenus"
+    ]
+}
